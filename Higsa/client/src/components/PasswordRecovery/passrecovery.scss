@@ -1,0 +1,40 @@
+.page-container-recovery {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  background-image: linear-gradient(
+      rgba(255, 255, 255, 0.7),
+      rgba(255, 255, 255, 0.7)
+    ),
+    url("/assets/fondoComida.jpg");
+  background-size: cover;
+  background-position: center;
+  background-repeat: no-repeat;
+  color: white;
+  height: calc(100vh - 108px);
+  @media (max-width: 768px) {
+    height: calc(100vh - 222px);
+  }
+}
+.recovery-title {
+  color: black;
+  margin-bottom: 20px;
+}
+.form-recovery {
+  width: 100%;
+  max-width: 600px;
+  padding: 40px;
+  background-color: #132234;
+  border-radius: 8px;
+}
+.boton-container-recovery {
+  display: flex;
+  justify-content: center;
+  margin-top: 20px;
+}
+.boton-recovery {
+  background-color: #E5B710;
+  width: 50%;
+  text-align: center;
+}

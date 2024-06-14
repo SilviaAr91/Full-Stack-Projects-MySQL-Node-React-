@@ -1,0 +1,18 @@
+.container-success-registration {
+  background-color: #162134;
+  padding: 20px;
+  border-radius: 8px;
+  width: 600px;
+  box-shadow: 0 2px 5px rgba(0, 0, 0, 0.1);
+}
+
+.font-style-register-2 {
+  color: white;
+}
+
+@media (width < 768px) {
+  .container-success-registration {
+    width: 100%;
+    margin-inline: 20px;
+  }
+}

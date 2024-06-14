@@ -1,0 +1,128 @@
+.menu-table-mobile {
+  display: grid;
+  grid-template-areas:
+    "number"
+    "week-info-mobile"
+    "week-headers-mobile";
+}
+
+.menu-mobile-headers {
+  display: grid;
+  color: white;
+
+  > div {
+    background-color: var(--dark-blue);
+    display: grid;
+    place-content: center;
+
+    &:last-child {
+      border-radius: 0 0 0 25px;
+    }
+
+    &:nth-child(even) {
+      background-color: var(--light-blue);
+    }
+  }
+}
+
+.week-number-mobile {
+  background-color: var(--dark-blue);
+  color: white;
+  height: 100px;
+  display: grid;
+  grid-template-columns: 100px 1fr auto;
+  place-items: center;
+  border-radius: 25px 25px 0 0;
+  border-bottom: 25px solid var(--yellow);
+
+  p {
+    font-size: 1.6rem;
+    font-weight: bold;
+    padding-left: 20px;
+  }
+  input {
+    width: 25px;
+    height: 25px;
+  }
+}
+
+.week-options-mobile {
+  display: flex;
+  gap: 10px;
+  padding-right: 20px;
+
+  img {
+    max-width: 30px;
+    filter: invert(1);
+
+    &:hover {
+      opacity: 0.5;
+    }
+
+    &:active {
+      opacity: 1;
+      transform: scale(0.9);
+    }
+  }
+}
+
+.week-info-mobile {
+  display: grid;
+  grid-template-columns: 100px 1fr;
+
+  button {
+    display: grid;
+    place-content: center;
+    max-width: 50px;
+    max-height: 50px;
+    img {
+      max-width: 25px;
+    }
+  }
+}
+
+.week-days-mobile {
+  > div {
+    display: grid;
+    grid-auto-flow: column;
+    grid-auto-columns: minmax(0, 1fr);
+    gap: 15px;
+    place-items: center;
+    padding-block: 15px;
+    text-align: center;
+    min-height: 75px;
+
+    &:nth-child(odd) {
+      background-color: #efefef;
+    }
+
+    &:nth-child(even) {
+      background-color: #afc2da;
+    }
+
+    &:last-child {
+      border-radius: 0 0 25px 0;
+    }
+
+    button {
+      background-color: var(--yellow);
+      height: 40px;
+      min-width: 80px;
+      border: none;
+      border-radius: 10px;
+    }
+
+    p {
+      font-size: clamp(0.8rem, 1.8vw, 1rem);
+    }
+  }
+}
+
+.no-weeks-added {
+  text-align: center;
+  color: var(--dark-blue);
+
+  img {
+    max-width: 50px;
+  }
+}

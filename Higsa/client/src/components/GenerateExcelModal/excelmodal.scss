@@ -1,0 +1,30 @@
+.cancel-button {
+  background-color: #fc5454 !important;
+
+  &:hover {
+    background-color: #fc5454 !important;
+    opacity: 0.8;
+    border: none;
+  }
+  &:active {
+    background-color: #fc5454 !important;
+    opacity: 1;
+    border: none;
+  }
+}
+
+.generate-button {
+  background-color: var(--dark-blue) !important;
+
+  &:hover {
+    background-color: var(--dark-blue) !important;
+    opacity: 0.8;
+    border: none;
+  }
+
+  &:active {
+    background-color: var(--dark-blue) !important;
+    opacity: 1;
+    border: none;
+  }
+}

@@ -1,0 +1,31 @@
+BEGIN:VCALENDAR
+VERSION:2.0
+CALSCALE:GREGORIAN
+PRODID:calcom/ics
+METHOD:REQUEST
+X-PUBLISHED-TTL:PT1H
+BEGIN:VEVENT
+UID:6j4VdxtSP54EBnfW7F3Nxw@Cal.com
+SUMMARY:Unknown Gravity | Meeting with Eduardo
+DTSTAMP:20240603T080800Z
+DTSTART:20240603T150000Z
+DESCRIPTION:Tu evento ha sido programado\n    Usted y cualquier otro asiste
+	nte han recibido esta información.\n\n    Qué:\nUnknown Gravity | Meeting 
+	with Eduardo\n  \n\nZona horaria del Invitado:\nEurope/Madrid\n  \n\nQuien
+	:\n\nJesús Sánchez Fernández - Organizador\njsanchez@unknowngravity.com\n 
+	 \nEduardo\ninfo.eduardoruiz@gmail.com\n      \n  \nDonde:\nhttps://meet.g
+	oogle.com/pqo-eopd-hpp\n\nDescripción\n    30-minute meeting with Jesús Sá
+	nchez.\n    \n\nNotas Adicionales:\nMuchas gracias por contactar conmigo!\
+	n  \n\nTelephone number:\n+34639411561\n  \nTelegram:\nundefined\n  \nHave
+	 we talked before?:\nYes\n  \nName of your project / company:\nEduardo Rui
+	z Moreno\n  \nwhat_is_this_meeting_about:\nHablar sobre la recomendación d
+	e Carlos\n  \n\n¿Necesita reprogramar o cancelar? https://calendar.unknown
+	gravity.com/booking/6j4VdxtSP54EBnfW7F3Nxw?changes=true
+LOCATION:https://meet.google.com/pqo-eopd-hpp
+STATUS:CONFIRMED
+ORGANIZER;CN=Jesús Sánchez Fernández:mailto:jsanchez@unknowngravity.com
+ATTENDEE;RSVP=TRUE;ROLE=REQ-PARTICIPANT;PARTSTAT=ACCEPTED;CN=Eduardo:mailto
+	:info.eduardoruiz@gmail.com
+DURATION:PT30M
+END:VEVENT
+END:VCALENDAR

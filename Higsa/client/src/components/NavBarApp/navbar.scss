@@ -1,0 +1,100 @@
+.navbar {
+  background-color: #132234;
+  padding: 10px 20px;
+
+  .logo {
+    display: flex;
+    align-items: center;
+
+    img {
+      height: 40px;
+      cursor: pointer;
+    }
+  }
+
+  .navbar-toggler {
+    border-color: white;
+
+    &:focus,
+    &:hover {
+      border-color: #e5b710;
+    }
+  }
+
+  .navbar-toggler-icon {
+    background-image: url("data:image/svg+xml;charset=utf8,%3Csvg viewBox='0 0 30 30' xmlns='http://www.w3.org/2000/svg'%3E%3Cpath stroke='rgba(255, 255, 255, 0.7)' stroke-width='2' stroke-linecap='round' stroke-miterlimit='10' d='M4 7h22M4 15h22M4 23h22'/%3E%3C/svg%3E");
+  }
+
+  .link-navbar {
+    text-decoration: none;
+    color: white;
+    margin: 0 10px;
+
+    &:hover,
+    &.active {
+      color: #e5b710;
+    }
+  }
+
+  .buttons {
+    display: flex;
+    align-items: center;
+
+    .user-button {
+      aspect-ratio: 1;
+      border-radius: 50%;
+      width: 50px;
+      margin-left: 25px;
+      font-weight: bold;
+      font-size: 1.2em;
+      color: white;
+      background-color: #e5b710;
+      border: none;
+      cursor: pointer;
+      transition: filter 0.3s;
+
+      &:hover,
+      &:focus {
+        filter: invert(1);
+      }
+    }
+
+    .normal-button {
+      background-color: #e5b710;
+      border: none;
+      padding: 10px 25px;
+      width: 148px;
+      margin-left: 10px;
+      font-size: 1rem;
+      color: #ffffff;
+      cursor: pointer;
+      border-radius: 10px;
+      transition: filter 0.3s;
+
+      &:hover,
+      &:focus {
+        background-color: grey;
+      }
+    }
+  }
+}
+
+@media (max-width: 768px) {
+  /*   .navbar-container {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+  } */
+
+  .buttons {
+    margin-top: 10px;
+
+    button {
+      margin: 5px 0;
+    }
+  }
+
+  .link-navbar {
+    margin: 5px 0;
+  }
+}

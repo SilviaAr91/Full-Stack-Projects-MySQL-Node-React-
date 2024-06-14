@@ -1,0 +1,86 @@
+.menu-info {
+  align-items: center;
+  justify-content: center;
+
+  .menu-icon {
+    filter: invert(1);
+    max-width: 50px;
+  }
+
+  .edit-menu-icon {
+    max-width: 25px;
+    cursor: pointer;
+    transition: filter 0.1s, scale 0.1s;
+
+    &:hover {
+      filter: invert(0.5);
+      scale: 1.2;
+    }
+
+    &:active {
+      filter: invert(0);
+      scale: 0.9;
+    }
+  }
+
+  input {
+    border: none;
+    border-bottom: 1px solid black;
+    margin-top: 10px;
+    outline: none;
+  }
+
+  button {
+    background-color: var(--light-blue) ;
+    border: none;
+    color: white;
+    border-radius: 7px;
+    height: 40px;
+    width: 70px;
+  }
+}
+
+.editButtons {
+  button {
+    width: 230px;
+    height: 35px;
+    border: none;
+    color: white;
+    border-radius: 7px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    gap: 10px;
+    transition: filter 0.1s, opacity 0.1s;
+
+    img {
+      max-width: 20px;
+    }
+
+    &:hover {
+      opacity: 0.8;
+    }
+
+    &:active {
+      filter: brightness(0.8);
+      opacity: 1;
+    }
+
+    &:nth-child(1) {
+      background-color: var(--red);
+    }
+
+    &:nth-child(2) {
+      background-color: var(--light-blue);
+    }
+
+    &:nth-child(3) {
+      background-color: #077b21;
+    }
+
+    &:nth-child(4) {
+      background-color: var(--yellow);
+    }
+  }
+}
+

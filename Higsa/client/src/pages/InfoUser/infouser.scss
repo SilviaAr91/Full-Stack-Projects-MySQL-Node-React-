@@ -1,0 +1,39 @@
+.container {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  min-height: 80vh;
+
+}
+
+.edit-button {
+  &:hover{
+    background-color: var(--yellow);
+    border: none;
+    opacity: 0.6;
+
+  }
+  &:active {
+    opacity: 1;
+    filter: brightness(0.8);
+    background-color: var(--yellow) !important;
+  }
+}
+
+
+@media (max-width: 768px) {
+  .container {
+    min-height: 100vh;
+  }
+  
+}
+.h2-info-user {
+  margin-top: 30px;
+  text-align: center;
+  h2{
+    font-weight: bold;
+    font-size: 2.5rem;
+    
+  }
+}
+

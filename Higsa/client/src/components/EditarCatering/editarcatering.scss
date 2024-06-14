@@ -1,0 +1,94 @@
+.custom-modal-edit-user {
+  .modal-content {
+    background-color: rgb(19, 34, 52);
+    color: rgb(229, 183, 16);
+    padding: 20px;
+  }
+
+  .modal-body {
+    background-color: rgb(19, 34, 52);
+  }
+
+  h3,
+  h4,
+  h5 {
+    text-align: center;
+    margin-bottom: 0;
+  }
+
+  h3 {
+    font-size: 2rem;
+  }
+
+  h4 {
+    font-size: 1.75rem;
+  }
+
+  h5 {
+    font-size: 1.75rem;
+    margin-top: 30px;
+  }
+
+  hr {
+    border: 2px solid rgb(229, 183, 16);
+  }
+
+  .form-label,
+  .form-control {
+    font-size: 1.2rem;
+  }
+
+  .form-control {
+    height: 40px;
+    width: 300px;
+  }
+
+  .form-group-pair {
+    width: 100%;
+    display: grid;
+    gap: 20px;
+    grid-template-columns: repeat(2, minmax(0, 1fr));
+    input {
+      width: 100%;
+    }
+  }
+
+  .form-group-pair .form-control {
+    flex: 1;
+  }
+
+  .form-group-single {
+    width: 100%;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+  }
+
+  .form-group-single .form-control {
+    width: 100%;
+  }
+
+  .form-group-buttons {
+    display: flex;
+    justify-content: space-between;
+    gap: 10px;
+  }
+
+  .btn {
+    background-color: rgb(229, 183, 16);
+    color: rgb(19, 34, 52);
+    border: none;
+    width: 35%;
+    transition: 0.2s;
+    &:hover {
+      filter: invert(1);
+    }
+  }
+
+  .form-container-edit-user {
+    display: flex;
+    flex-direction: column;
+    gap: 10px;
+  }
+}

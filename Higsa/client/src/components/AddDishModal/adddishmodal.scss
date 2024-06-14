@@ -1,0 +1,13 @@
+.modal-buttons-dishes {
+  display: grid;
+  grid-template-columns: repeat(2, minmax(0, 1fr));
+  gap: 25px;
+
+  .select {
+    width: 180px;
+  }
+}
+
+.add-dish-header {
+  display: block;
+}

@@ -1,0 +1,46 @@
+.Card-Menu {
+  align-items: center;
+  background-color: rgb(229, 183, 16);
+  border-radius: 16px;
+  color: white;
+  display: flex;
+  
+  height: 170px;
+  justify-content: center;
+  overflow: hidden;
+  text-align: center;
+  width: 300px;
+  cursor: pointer;
+  transition: opacity 0.2s, scale 0.2s;
+
+  &:hover {
+    opacity: 0.8;
+  }
+
+  &:active {
+    scale: 0.95;
+  }
+  
+  .card-title {
+    
+    font-size: 1.5rem; 
+    display: grid;
+    grid-template-columns: repeat(3, minmax(0, 1fr));
+    place-items: center;
+    height: 100%;
+    gap: 10px;
+
+    img {
+      width: 60px;
+      margin-left: 20px;
+      
+      
+      
+    }
+
+    p {
+      margin-right: 25%;
+      grid-column: 2 / 4;
+    }
+  }
+}

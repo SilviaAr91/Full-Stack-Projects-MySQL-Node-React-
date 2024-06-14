@@ -1,0 +1,47 @@
+
+  .modal-header {
+    margin: auto;
+    
+    .btn-close {
+      visibility: hidden;
+    }
+  }
+  
+  .modal-body {
+    margin: auto;
+    
+    .select {
+      width: 250px;
+    }
+  }
+  
+  .create-menu-modal-footer {
+    display: flex;
+    justify-content: space-between;
+
+    button {
+      background-color: var(--dark-blue);
+      border: none;
+      color: white;
+      border-radius: 5px;
+      width: 100px;
+      height: 40px;
+
+      &:hover {
+        background-color: var(--light-blue);
+      }
+
+      &:active {
+        background-color: var(--dark-blue);
+      }
+    }
+
+    .button-cancel {
+      background-color: #dc3545;
+
+      &:hover {
+        background-color: lightcoral;
+      }
+    }
+  }
+
